@@ -5,7 +5,7 @@ def before_files():
     dir_path = os.getcwd()
 
     if os.path.isdir(dir_path):
-        ignore_files = ('README.md', 'before.py', 'after.py','main.py','main.exe')
+        ignore_files = ('before.py', 'after.py', 'main.py','檔案分類器.exe')
         files = sorted([f for f in os.listdir() if os.path.isfile(f) and f not in ignore_files])
 
         for fileName in files:

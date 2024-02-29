@@ -14,7 +14,7 @@ def after_files():
     }
 
     # 定義要忽略的檔案列表
-    ignore_files = ('README.md', 'before.py', 'after.py','main.py','main.exe')
+    ignore_files = ('before.py', 'after.py','main.py','檔案分類器.exe')
 
     dir_path = os.getcwd()
 

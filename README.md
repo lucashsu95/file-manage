@@ -16,11 +16,7 @@ pip install pyinstaller
 ```
 
 ```sh
-pyinstaller --onefile main.py popup.py
-```
-
-```sh
-pyinstaller -F main.py
+pyinstaller -F --name=檔案分類器 main.py
 ```
 
 
