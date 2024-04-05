@@ -1,4 +1,4 @@
 build
 __pycache__
 dist
-檔案分類器.spec
+*.spec
